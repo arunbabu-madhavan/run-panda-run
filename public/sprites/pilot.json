@@ -1,5 +1,5 @@
 {
-    "imageUrl":"/atlas/tileset.png",
+    "imageUrl":"atlas/tileset.png",
     "tileSize":32,
     "tiles":[
         {

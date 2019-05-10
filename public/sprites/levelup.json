@@ -1,5 +1,5 @@
 ﻿{
-  "imageUrl": "/atlas/levelup.png",
+  "imageUrl": "atlas/levelup.png",
   "frames": [
     {
       "name": "levelup_power",
