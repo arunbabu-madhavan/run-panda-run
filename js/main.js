@@ -15,10 +15,11 @@ import { loadGameOverSprite } from './loaders/gameOver.js';
 import { loadAllLevels } from './levelManager.js';
 import { loadGameOverWinSprite } from './loaders/gameOver.win.js';
 
-function createPlayerEnvironment(playerEntitity1,playerEntitity2){
+function createPlayerEnvironment(playerEntitity1,playerEntitity2,maxLevels){
     const playerEnv = new Entity();
     const playerController = new PlayerController();
     playerController.setPlayer(playerEntitity1,playerEntitity2);
+    playerController.maxLevels = maxLevels;
     playerEnv.addTrait(playerController);
     return playerEnv;
 }
@@ -35,8 +36,7 @@ async function main(canvas){
 
     const panda = factory.panda();
     const pandacub = factory.pandacub();
-    const player = createPlayerEnvironment(panda,pandacub);
-    player.maxLevels = levels.length;
+    const player = createPlayerEnvironment(panda,pandacub,levels.length);
     const inputPanda = setupKeyboard(panda);
     const inputPandaCub = setupKeyboard(pandacub);
     

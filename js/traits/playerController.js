@@ -9,7 +9,7 @@ export default class PlayerController extends Trait{
         this.player = null;
         this.playerCub = null;
         this.playerBig = null;
-        this.checkpoint = new Vec2(150,70);
+        this.checkpoint = new Vec2(140,70);
         this.INIT_TIME = 128;
         this.time =  this.INIT_TIME;
         this.score = 0;
@@ -65,11 +65,12 @@ export default class PlayerController extends Trait{
         }
         
         this.player.stomper.onCollectLevelUp = () =>{
+            console.log(this.level ,this.maxLevels);
             if(this.level + 1 <= this.maxLevels)
             {
            this.levelUp  = true;
            this.time = this.INIT_TIME;
-           this.checkpoint = new Vec2(250,70);
+           this.checkpoint = new Vec2(150,70);
            this.player.pos.set(150,420);
            this.level++;
            this.score+=512;
