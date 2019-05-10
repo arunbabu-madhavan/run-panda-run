@@ -1,4 +1,4 @@
-import Entity from '../Entity.js';
+import Entity from '../entity.js';
 import { loadSpritesheet } from '../loaders.js';
 import PendulumMove from '../traits/PendulumMove.js'
 import Pounce from '../traits/pounce.js';

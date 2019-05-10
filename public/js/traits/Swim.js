@@ -1,5 +1,5 @@
 import Trait from './Trait.js'
-import { Sides } from '../Entity.js'
+import { Sides } from '../entity.js'
 export default class Swim extends Trait{
     constructor(speed,randomize=false)
     {
