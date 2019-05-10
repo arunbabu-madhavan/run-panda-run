@@ -1,0 +1,9 @@
+﻿{
+  "imageUrl": "/atlas/levelup.png",
+  "frames": [
+    {
+      "name": "levelup_power",
+      "rect": [ 0, 0, 64, 64 ]
+    }
+  ]
+}

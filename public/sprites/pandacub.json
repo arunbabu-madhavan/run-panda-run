@@ -1,0 +1,49 @@
+{
+    "imageUrl":"/atlas/pandacub.png",
+    "frames":[
+        {
+            "name":"idle",
+            "rect":[256,64,64,64]
+        },
+        {
+            "name":"walk-1",
+            "rect":[0,0,64,64]
+        },
+        {
+            "name":"walk-2",
+            "rect":[64,0,64,64]
+        },
+        {
+            "name":"walk-3",
+            "rect":[128,0,64,64]
+        },
+        {
+            "name":"walk-4",
+            "rect":[192,0,64,64]
+        },
+        {
+            "name":"break",
+            "rect":[256,0,64,64]
+        },
+        {
+            "name":"jump",
+            "rect":[0,64,64,64]
+        }        ,
+        {
+            "name":"dead",
+            "rect":[64,64,64,64]
+        },
+        {
+            "name":"swim-1",
+            "rect":[0,128,64,64]
+        }
+    ],
+    "animations":[
+        {
+            "name":"walk",
+            "frameLen":15,
+            "frames":["walk-1","walk-2","walk-3","walk-4"]
+        }
+    ]
+   
+}

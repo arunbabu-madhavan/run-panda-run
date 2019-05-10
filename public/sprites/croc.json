@@ -1,0 +1,29 @@
+{
+    "imageUrl":"/atlas/croc1.png",
+
+    "frames":[
+        {
+        "name":"walk-1",
+        "rect":[0,-32,128,64]
+        },
+        {
+            "name":"walk-2",
+            "rect":[128,-32,128,64]
+            },
+            {
+                "name":"walk-3",
+                "rect":[256,-32,128,64]
+                }
+            ],
+    "animations":[
+        {
+            "name":"walk",
+            "frameLen":0.20,
+            "frames":[
+                "walk-1",
+                "walk-2",
+                "walk-3"
+            ]
+        }
+    ]
+    }

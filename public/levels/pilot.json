@@ -1,0 +1,56 @@
+{
+    "spritesheet":"pilot",
+    "backgrounds":[
+        {
+            "tile":"sky",
+            "ranges":[
+                [
+                    0,80,
+                    0,16
+                ]
+            ]
+           
+        },
+        {
+            "tile":"ground",
+            "ranges":[
+                [
+                    0,80,
+                    16,4
+                ]
+            ]
+           
+        },
+        {
+            "tile":"flyingGround",
+            "ranges":[
+                [
+                    6,7,
+                    12,2
+                ]
+            ]
+        },
+        {
+            "tile":"flyingGroundsmall",
+            "ranges":[
+                [
+                    6,1,
+                    12,2
+                ]
+                
+            ]
+        },
+        {
+            "tile":"brownBlocks",
+            "ranges":[
+                [
+                    14,2,
+                    8,2
+                ]
+                
+            ]
+        }
+      
+      
+    ]
+}

@@ -1,0 +1,55 @@
+﻿{
+  "imageUrl": "/atlas/coin.png",
+
+  "frames": [
+    {
+      "name": "coins",
+      "rect": [ 0, 0, 32, 32 ]
+    },
+    {
+      "name": "coins-1",
+
+
+      "rect": [ 64, 0, 32, 32 ]
+    },
+    {
+      "name": "coins-2",
+
+
+      "rect": [ 128, 0, 32, 32 ]
+    },
+    {
+      "name": "coins-3",
+
+
+      "rect": [ 192, 0, 32, 32 ]
+    },
+    {
+      "name": "coins-4",
+
+
+      "rect": [ 256, 0, 32, 32 ]
+    },
+    {
+      "name": "coins-5",
+
+
+      "rect": [ 320, 0, 32, 32 ]
+    }
+
+  ],
+  "animations": [
+    {
+      "name": "coins",
+      "frameLen": 0.19,
+      "frames": [
+        "coins",
+        "coins-1",
+        "coins-2",
+        "coins-3",
+        "coins-4",
+        "coins-5"
+      ]
+    }
+  ]
+}

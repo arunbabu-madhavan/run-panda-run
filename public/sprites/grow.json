@@ -1,0 +1,9 @@
+﻿{
+  "imageUrl": "/atlas/growth_power.png",
+  "frames": [
+    {
+      "name": "growth_power",
+      "rect": [ 0, 0, 64, 32 ]
+    }
+  ]
+}

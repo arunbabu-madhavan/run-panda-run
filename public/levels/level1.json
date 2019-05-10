@@ -1,0 +1,1786 @@
+{
+    "spritesheet":"tiles",
+   "layers":[
+
+    {
+        "main":true,
+        "tiles":[
+            {
+                "pattern":"wallpaper",
+                "ranges":[
+                    [0,0],
+                    [19,0],
+                    [38,0],
+                    [57,0],
+                    [76,0],
+                    [95,0],
+                    [114,0],
+                    [133,0],
+                    [152,0]
+                ]
+               
+            }]
+
+    },
+        {
+            
+            "tiles":[
+        {
+            "pattern":"tree-2",
+            "ranges":[
+                [
+                    12,4
+                ]
+            ]
+           
+        }, {
+            "pattern":"tree-1",
+            "ranges":[
+                [
+                    25,5
+                ]
+            ]
+           
+        },
+        {
+            "pattern":"tree-2",
+            "ranges":[
+                [
+                    109,1
+                ]
+            ]
+           
+        },
+        {
+            "pattern":"tree-3",
+            "ranges":[[
+                57,2
+            ]]
+        },
+        {
+            "name":"ground",
+            "type":"ground",
+            "ranges":[
+                [
+                    0,39,
+                    9,1
+                ],
+                [97,9],
+                [
+                    51,3,
+                    9,1
+                ],
+                [
+                    64,19,
+                    9,1
+                ],
+                [130,8],
+                
+            [134,8],
+            [138,7],
+            [141,5],
+            [144,3]
+           
+    
+            ]
+        },
+        {
+            "name":"ground-b",
+            "type":"ground",
+            "ranges":[
+                [
+                    134,1,
+                    9,3
+                ],
+                [130,9],
+                [
+                    138,1,
+                    8,3
+                ],
+                [   
+                    141,1,
+                    6,5
+                ],
+                [   
+                    144,1
+                    ,4,6
+                ]
+
+            ]
+        },
+        {
+            "name":"ground-l",
+            "type":"ground",
+            "ranges":[
+                [50,9]
+            ]
+        },
+        {
+            "name":"ground-r",
+            "type":"ground",
+            "ranges":[
+                [39,9],
+                [83,9]
+            ]
+        },
+        {
+            "name":"crate",
+            "type":"ground",
+            "ranges":[
+              [  0,1,
+                3,6
+              ],
+              [  1,1,
+                7,2
+              ],
+              [
+                  2,8
+              ],
+              [
+                  24,8
+              ], 
+              [
+                  24,10
+              ]
+              
+            ] 
+        },
+        {
+            "name":"crate",
+            "type":"block",
+            "ranges":[
+                [
+                    98,32,
+                    10,1
+                ]
+            ] 
+        },
+        {
+            "pattern":"water",
+            "type":"water",
+            "ranges":[
+              [ 19, 9 ],
+              [ 21, 9 ],
+              [ 23, 9 ],
+              [ 54, 9 ],
+              [ 56, 9 ],
+              [ 58, 9 ],
+              [ 60, 9 ],
+              [ 62, 9 ],
+              [ 98, 9 ],
+              [ 100, 9 ],
+              [ 102, 9 ],
+              [ 104, 9 ],
+              [ 106, 9 ],
+              [ 108, 9 ],
+              [ 110, 9 ],
+              [ 112, 9 ],
+              [ 114, 9 ],
+              [ 116, 9 ],
+              [ 118, 9 ],
+              [ 120, 9 ],
+              [ 122, 9 ],
+              [ 124, 9 ],
+              [ 126, 9 ],
+              [ 128, 9 ]
+            ] 
+        },
+      
+        {
+            "pattern":"bush",
+            "ranges":[
+                [51,8]
+
+            ]
+        }
+       
+    ]
+},
+{
+    "tiles":[
+        {
+            "name":"ground",
+            "type":"ground",
+            "ranges":[
+                [
+                   65,9
+                ]]
+            },
+            {
+                "name":"inv",
+                "type":"water",
+                "ranges":[
+                    [
+                       19,5,
+                       9,1
+                    ],
+                    [
+                        98,32,
+                        9,1
+                    ]
+                ] 
+            },
+      {
+        "pattern": "flyingGround-1w",
+        "type": "ground",
+        "ranges": [
+          [9, 7],
+          [41, 8],
+          [53,4],
+          [92,8]
+        ]
+
+      },
+      {
+        "pattern": "flyingGround-3w",
+        "type": "ground",
+        "ranges": [
+       [85,8],
+     [148,2],
+[15,5]
+        ]
+
+      },
+
+      {
+        "pattern": "flyingGround-5w",
+        "type": "ground",
+        "ranges": [
+            [110,6]
+
+
+
+        ]
+
+      },
+      {
+        "name":"ground-r",
+        "type":"ground",
+        "ranges":[
+            [18,9],
+            [53,9]
+        ]
+    },
+    {
+        "name":"ground-l",
+        "type":"ground",
+        "ranges":[
+            [24,9],
+            [64,9]
+        ]
+    },
+       {
+            "pattern":"flyingGround-2w",
+            "type":"ground",
+            "ranges":[
+                [57,8],
+                [76,7],
+                [124,4]
+
+            ]
+           
+        },
+        {
+            "pattern":"flyingGround-w",
+            "type":"ground",
+            "ranges":[
+                [45,6],
+                [47,5],
+                [50,3],
+                [101,8],
+                [106,8],
+                [121,6],
+                [119,8]
+
+            ]
+        },
+        {
+            "name":"cloud",
+            "ranges":[
+                [8,2],
+                [17,3],
+                [24,1],
+                [27,2],
+                [35,2],
+                [64,1],
+                [75,0],
+                [52,0],
+                [69,1],
+                [56,3],
+                [85,5],
+                [91,1],
+                [112,2],
+                [93,1],
+                [100,2]
+            ]
+
+           
+        }
+        , {
+            "name":"rock",
+            "ranges":[
+                [ 38,8],
+                [47,4]
+            ]
+        },
+        {
+            "name":"bush-small",
+            "ranges":[
+                [ 127,3]
+              
+            ]
+        }
+        
+        , {
+            "name":"mushroom",
+            "ranges":[
+                [ 26,8]
+                
+            ]
+        },
+        {
+            "pattern":"bush",
+            "ranges":[
+                [ 30,8],
+                [41,7],
+                [53,3],
+
+                [52,8],
+                [50,8]
+
+            ]
+        },
+        {
+            "pattern":"deadtree1",
+            "ranges":[
+                [66,5]
+
+            ]
+        },
+        {
+            "pattern":"deadtree2",
+            "ranges":[
+                [64,5]
+
+            ]
+        },
+        {
+            "pattern":"deadtree-small",
+            "ranges":[
+                [74,7]
+
+            ]
+        },
+        {
+            "pattern":"deadtree-small-1",
+            "ranges":[
+                [81,7]
+
+            ]
+        },
+        {
+            "pattern":"deadtree-small-2",
+            "ranges":[
+                [78,5]
+
+            ]
+        }
+        
+    ]
+},{
+    "tiles":[
+      
+        {
+            "name":"mushrooms",
+            "ranges":[
+                [ 31,8]
+            ]
+        },
+        {
+            "name":"mushrooms",
+            "type":"block",
+            "ranges":[
+                [ 97,8]
+            ]
+        },
+        
+                
+        {
+            "pattern":"bush",
+            "ranges":[[54,3]]
+
+        },
+        {
+            "pattern":"signboard",
+            "type":"block",
+            "ranges":[
+                [ 39,8]
+            ]
+        },
+        {
+            "name":"mushroom-1",
+            "ranges":[
+                [ 41,7]
+            ]
+        },
+        {
+            "name":"mushroom",
+            "ranges":[
+                [ 47,4]
+            ]
+        },
+        {
+            "name":"mushroom",
+            "type":"block",
+            "ranges":[
+                [ 50,8]
+            ]
+        },
+        {
+            "name":"sign-warning",
+            "type":"block",
+            "ranges":[[64,8],
+                      [78,8]
+                ]
+        },
+        {
+            "name":"flat-rock",
+            "type":"block",
+            "ranges":[
+                [60,7],
+                [53,8],
+                [83,8],
+                [116,5]
+            ]
+        },
+        {
+            "name":"flat-rock-1",
+            "ranges":[
+                [76,6]]
+        },{
+            "name":"broken-tree",
+            "ranges":[[
+                    122,5
+            ]
+           ]
+        }
+    ]
+},{
+    "tiles":[
+        {
+            "name":"sun-flower",
+            "ranges":[
+                [55,3],
+                [79,6],
+                [127,3],
+                [130,7]
+            ]
+        },
+        {
+            "name":"sun-flower",
+            "type":"block",
+            "ranges":[
+                [110,5]
+            ]
+        }
+    ]
+}
+   ]
+    
+,
+    "patterns":{
+        "deadtree2":{
+            "tiles":[
+                {
+                    "name":"deadtree2-top-1",
+                    "ranges":[
+                        [
+                                0,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree2-top-2",
+                    "ranges":[
+                        [
+                                1,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree2-mid-1",
+                    "ranges":[
+                        [
+                                0,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree2-mid-2",
+                    "ranges":[
+                        [
+                                1,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree2-bot-1",
+                    "ranges":[
+                        [
+                                0,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree2-bot-2",
+                    "ranges":[
+                        [
+                                1,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree2-root-1",
+                    "ranges":[
+                        [
+                                0,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree2-root-2",
+                    "ranges":[
+                        [
+                               1,3
+                        ]
+                    ]
+                }
+            ]
+        },
+        "deadtree1":{
+            "tiles":[
+                {
+                    "name":"deadtree1-top-1",
+                    "ranges":[
+                        [
+                                0,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree1-top-2",
+                    "ranges":[
+                        [
+                                1,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree1-mid-1",
+                    "ranges":[
+                        [
+                                0,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree1-mid-2",
+                    "ranges":[
+                        [
+                                1,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree1-bot-1",
+                    "ranges":[
+                        [
+                                0,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree1-bot-2",
+                    "ranges":[
+                        [
+                                1,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree1-root-1",
+                    "ranges":[
+                        [
+                                0,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"deadtree1-root-2",
+                    "ranges":[
+                        [
+                               1,3
+                        ]
+                    ]
+                }
+            ]
+        }
+            
+        ,
+"wallpaper":{
+    "tiles":[
+        {   "name":"wallpaper-1",             "ranges":[[0,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[1,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[2,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[3,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[4,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[5,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[6,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[7,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[8,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[9,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[10,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[11,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[12,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[13,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[14,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[15,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[16,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[17,0]] },
+        {   "name":"wallpaper-1",             "ranges":[[18,0]] },
+
+        {   "name":"wallpaper-1",             "ranges":[[0,1]] },
+{   "name":"wallpaper-1",             "ranges":[[1,1]] },
+{   "name":"wallpaper-1",             "ranges":[[2,1]] },
+{   "name":"wallpaper-1",             "ranges":[[3,1]] },
+{   "name":"wallpaper-1",             "ranges":[[4,1]] },
+{   "name":"wallpaper-1",             "ranges":[[5,1]] },
+{   "name":"wallpaper-1",             "ranges":[[6,1]] },
+{   "name":"wallpaper-1",             "ranges":[[7,1]] },
+{   "name":"wallpaper-1",             "ranges":[[8,1]] },
+{   "name":"wallpaper-1",             "ranges":[[9,1]] },
+{   "name":"wallpaper-1",             "ranges":[[10,1]] },
+{   "name":"wallpaper-1",             "ranges":[[11,1]] },
+{   "name":"wallpaper-1",             "ranges":[[12,1]] },
+{   "name":"wallpaper-1",             "ranges":[[13,1]] },
+{   "name":"wallpaper-1",             "ranges":[[14,1]] },
+{   "name":"wallpaper-1",             "ranges":[[15,1]] },
+{   "name":"wallpaper-1",             "ranges":[[16,1]] },
+{   "name":"wallpaper-1",             "ranges":[[17,1]] },
+{   "name":"wallpaper-1",             "ranges":[[18,1]] },
+
+
+
+{   "name":"wallpaper1-1",             "ranges":[[0,2]] },
+{   "name":"wallpaper1-2",             "ranges":[[1,2]] },
+{   "name":"wallpaper1-3",             "ranges":[[2,2]] },
+{   "name":"wallpaper1-4",             "ranges":[[3,2]] },
+{   "name":"wallpaper1-5",             "ranges":[[4,2]] },
+{   "name":"wallpaper1-6",             "ranges":[[5,2]] },
+{   "name":"wallpaper1-7",             "ranges":[[6,2]] },
+{   "name":"wallpaper1-8",             "ranges":[[7,2]] },
+{   "name":"wallpaper1-9",             "ranges":[[8,2]] },
+{   "name":"wallpaper1-10",             "ranges":[[9,2]] },
+{   "name":"wallpaper1-11",             "ranges":[[10,2]] },
+{   "name":"wallpaper1-12",             "ranges":[[11,2]] },
+{   "name":"wallpaper1-13",             "ranges":[[12,2]] },
+{   "name":"wallpaper1-14",             "ranges":[[13,2]] },
+{   "name":"wallpaper1-15",             "ranges":[[14,2]] },
+{   "name":"wallpaper1-16",             "ranges":[[15,2]] },
+{   "name":"wallpaper1-17",             "ranges":[[16,2]] },
+{   "name":"wallpaper1-18",             "ranges":[[17,2]] },
+{   "name":"wallpaper1-19",             "ranges":[[18,2]] },
+
+
+{   "name":"wallpaper2-1",             "ranges":[[0,3]] },
+{   "name":"wallpaper2-2",             "ranges":[[1,3]] },
+{   "name":"wallpaper2-3",             "ranges":[[2,3]] },
+{   "name":"wallpaper2-4",             "ranges":[[3,3]] },
+{   "name":"wallpaper2-5",             "ranges":[[4,3]] },
+{   "name":"wallpaper2-6",             "ranges":[[5,3]] },
+{   "name":"wallpaper2-7",             "ranges":[[6,3]] },
+{   "name":"wallpaper2-8",             "ranges":[[7,3]] },
+{   "name":"wallpaper2-9",             "ranges":[[8,3]] },
+{   "name":"wallpaper2-10",             "ranges":[[9,3]] },
+{   "name":"wallpaper2-11",             "ranges":[[10,3]] },
+{   "name":"wallpaper2-12",             "ranges":[[11,3]] },
+{   "name":"wallpaper2-13",             "ranges":[[12,3]] },
+{   "name":"wallpaper2-14",             "ranges":[[13,3]] },
+{   "name":"wallpaper2-15",             "ranges":[[14,3]] },
+{   "name":"wallpaper2-16",             "ranges":[[15,3]] },
+{   "name":"wallpaper2-17",             "ranges":[[16,3]] },
+{   "name":"wallpaper2-18",             "ranges":[[17,3]] },
+{   "name":"wallpaper2-19",             "ranges":[[18,3]] },
+
+
+{   "name":"wallpaper3-1",             "ranges":[[0,4]] },
+{   "name":"wallpaper3-2",             "ranges":[[1,4]] },
+{   "name":"wallpaper3-3",             "ranges":[[2,4]] },
+{   "name":"wallpaper3-4",             "ranges":[[3,4]] },
+{   "name":"wallpaper3-5",             "ranges":[[4,4]] },
+{   "name":"wallpaper3-6",             "ranges":[[5,4]] },
+{   "name":"wallpaper3-7",             "ranges":[[6,4]] },
+{   "name":"wallpaper3-8",             "ranges":[[7,4]] },
+{   "name":"wallpaper3-9",             "ranges":[[8,4]] },
+{   "name":"wallpaper3-10",             "ranges":[[9,4]] },
+{   "name":"wallpaper3-11",             "ranges":[[10,4]] },
+{   "name":"wallpaper3-12",             "ranges":[[11,4]] },
+{   "name":"wallpaper3-13",             "ranges":[[12,4]] },
+{   "name":"wallpaper3-14",             "ranges":[[13,4]] },
+{   "name":"wallpaper3-15",             "ranges":[[14,4]] },
+{   "name":"wallpaper3-16",             "ranges":[[15,4]] },
+{   "name":"wallpaper3-17",             "ranges":[[16,4]] },
+{   "name":"wallpaper3-18",             "ranges":[[17,4]] },
+{   "name":"wallpaper3-19",             "ranges":[[18,4]] },
+
+
+{   "name":"wallpaper4-1",             "ranges":[[0,5]] },
+{   "name":"wallpaper4-2",             "ranges":[[1,5]] },
+{   "name":"wallpaper4-3",             "ranges":[[2,5]] },
+{   "name":"wallpaper4-4",             "ranges":[[3,5]] },
+{   "name":"wallpaper4-5",             "ranges":[[4,5]] },
+{   "name":"wallpaper4-6",             "ranges":[[5,5]] },
+{   "name":"wallpaper4-7",             "ranges":[[6,5]] },
+{   "name":"wallpaper4-8",             "ranges":[[7,5]] },
+{   "name":"wallpaper4-9",             "ranges":[[8,5]] },
+{   "name":"wallpaper4-10",             "ranges":[[9,5]] },
+{   "name":"wallpaper4-11",             "ranges":[[10,5]] },
+{   "name":"wallpaper4-12",             "ranges":[[11,5]] },
+{   "name":"wallpaper4-13",             "ranges":[[12,5]] },
+{   "name":"wallpaper4-14",             "ranges":[[13,5]] },
+{   "name":"wallpaper4-15",             "ranges":[[14,5]] },
+{   "name":"wallpaper4-16",             "ranges":[[15,5]] },
+{   "name":"wallpaper4-17",             "ranges":[[16,5]] },
+{   "name":"wallpaper4-18",             "ranges":[[17,5]] },
+{   "name":"wallpaper4-19",             "ranges":[[18,5]] },
+
+{   "name":"wallpaper5-1",             "ranges":[[0,6]] },
+{   "name":"wallpaper5-2",             "ranges":[[1,6]] },
+{   "name":"wallpaper5-3",             "ranges":[[2,6]] },
+{   "name":"wallpaper5-4",             "ranges":[[3,6]] },
+{   "name":"wallpaper5-5",             "ranges":[[4,6]] },
+{   "name":"wallpaper5-6",             "ranges":[[5,6]] },
+{   "name":"wallpaper5-7",             "ranges":[[6,6]] },
+{   "name":"wallpaper5-8",             "ranges":[[7,6]] },
+{   "name":"wallpaper5-9",             "ranges":[[8,6]] },
+{   "name":"wallpaper5-10",             "ranges":[[9,6]] },
+{   "name":"wallpaper5-11",             "ranges":[[10,6]] },
+{   "name":"wallpaper5-12",             "ranges":[[11,6]] },
+{   "name":"wallpaper5-13",             "ranges":[[12,6]] },
+{   "name":"wallpaper5-14",             "ranges":[[13,6]] },
+{   "name":"wallpaper5-15",             "ranges":[[14,6]] },
+{   "name":"wallpaper5-16",             "ranges":[[15,6]] },
+{   "name":"wallpaper5-17",             "ranges":[[16,6]] },
+{   "name":"wallpaper5-18",             "ranges":[[17,6]] },
+{   "name":"wallpaper5-19",             "ranges":[[18,6]] },
+
+{   "name":"wallpaper6-1",             "ranges":[[0,7]] },
+{   "name":"wallpaper6-2",             "ranges":[[1,7]] },
+{   "name":"wallpaper6-3",             "ranges":[[2,7]] },
+{   "name":"wallpaper6-4",             "ranges":[[3,7]] },
+{   "name":"wallpaper6-5",             "ranges":[[4,7]] },
+{   "name":"wallpaper6-6",             "ranges":[[5,7]] },
+{   "name":"wallpaper6-7",             "ranges":[[6,7]] },
+{   "name":"wallpaper6-8",             "ranges":[[7,7]] },
+{   "name":"wallpaper6-9",             "ranges":[[8,7]] },
+{   "name":"wallpaper6-10",             "ranges":[[9,7]] },
+{   "name":"wallpaper6-11",             "ranges":[[10,7]] },
+{   "name":"wallpaper6-12",             "ranges":[[11,7]] },
+{   "name":"wallpaper6-13",             "ranges":[[12,7]] },
+{   "name":"wallpaper6-14",             "ranges":[[13,7]] },
+{   "name":"wallpaper6-15",             "ranges":[[14,7]] },
+{   "name":"wallpaper6-16",             "ranges":[[15,7]] },
+{   "name":"wallpaper6-17",             "ranges":[[16,7]] },
+{   "name":"wallpaper6-18",             "ranges":[[17,7]] },
+{   "name":"wallpaper6-19",             "ranges":[[18,7]] },
+
+{   "name":"wallpaper7-1",             "ranges":[[0,8]] },
+{   "name":"wallpaper7-2",             "ranges":[[1,8]] },
+{   "name":"wallpaper7-3",             "ranges":[[2,8]] },
+{   "name":"wallpaper7-4",             "ranges":[[3,8]] },
+{   "name":"wallpaper7-5",             "ranges":[[4,8]] },
+{   "name":"wallpaper7-6",             "ranges":[[5,8]] },
+{   "name":"wallpaper7-7",             "ranges":[[6,8]] },
+{   "name":"wallpaper7-8",             "ranges":[[7,8]] },
+{   "name":"wallpaper7-9",             "ranges":[[8,8]] },
+{   "name":"wallpaper7-10",             "ranges":[[9,8]] },
+{   "name":"wallpaper7-11",             "ranges":[[10,8]] },
+{   "name":"wallpaper7-12",             "ranges":[[11,8]] },
+{   "name":"wallpaper7-13",             "ranges":[[12,8]] },
+{   "name":"wallpaper7-14",             "ranges":[[13,8]] },
+{   "name":"wallpaper7-15",             "ranges":[[14,8]] },
+{   "name":"wallpaper7-16",             "ranges":[[15,8]] },
+{   "name":"wallpaper7-17",             "ranges":[[16,8]] },
+{   "name":"wallpaper7-18",             "ranges":[[17,8]] },
+{   "name":"wallpaper7-19",             "ranges":[[18,8]] },
+
+{   "name":"wallpaper8-1",             "ranges":[[0,9]] },
+{   "name":"wallpaper8-2",             "ranges":[[1,9]] },
+{   "name":"wallpaper8-3",             "ranges":[[2,9]] },
+{   "name":"wallpaper8-4",             "ranges":[[3,9]] },
+{   "name":"wallpaper8-5",             "ranges":[[4,9]] },
+{   "name":"wallpaper8-6",             "ranges":[[5,9]] },
+{   "name":"wallpaper8-7",             "ranges":[[6,9]] },
+{   "name":"wallpaper8-8",             "ranges":[[7,9]] },
+{   "name":"wallpaper8-9",             "ranges":[[8,9]] },
+{   "name":"wallpaper8-10",             "ranges":[[9,9]] },
+{   "name":"wallpaper8-11",             "ranges":[[10,9]] },
+{   "name":"wallpaper8-12",             "ranges":[[11,9]] },
+{   "name":"wallpaper8-13",             "ranges":[[12,9]] },
+{   "name":"wallpaper8-14",             "ranges":[[13,9]] },
+{   "name":"wallpaper8-15",             "ranges":[[14,9]] },
+{   "name":"wallpaper8-16",             "ranges":[[15,9]] },
+{   "name":"wallpaper8-17",             "ranges":[[16,9]] },
+{   "name":"wallpaper8-18",             "ranges":[[17,9]] },
+{   "name":"wallpaper8-19",             "ranges":[[18,9]] }
+
+]
+},
+"deadtree-small-1":{
+    "tiles":[
+        {
+            "name":"dt-small2-0",
+            "ranges":[
+                [
+                        0,0
+                ]
+            ]
+        },
+        {
+            "name":"dt-small2-1",
+            "ranges":[
+                [
+                       1,0
+                ]
+            ]
+        },
+        {
+            "name":"dt-small2-2",
+            "ranges":[
+                [
+                        0,1
+                ]
+            ]
+        },
+        {
+            "name":"dt-small2-3",
+            "ranges":[
+                [
+                        1,1
+                ]
+            ]
+        }
+    ]
+},
+"deadtree-small-2":{
+    "tiles":[
+        {
+            "name":"dt-small3-0",
+            "ranges":[
+                [
+                        0,0
+                ]
+            ]
+        },
+        {
+            "name":"dt-small3-1",
+            "ranges":[
+                [
+                       1,0
+                ]
+            ]
+        },
+        {
+            "name":"dt-small3-2",
+            "ranges":[
+                [
+                        0,1
+                ]
+            ]
+        },
+        {
+            "name":"dt-small3-3",
+            "ranges":[
+                [
+                        1,1
+                ]
+            ]
+        }
+    ]
+},
+
+"deadtree-small":{
+    "tiles":[
+        {
+            "name":"dt-small-0",
+            "ranges":[
+                [
+                        0,0
+                ]
+            ]
+        },
+        {
+            "name":"dt-small-1",
+            "ranges":[
+                [
+                       1,0
+                ]
+            ]
+        },
+        {
+            "name":"dt-small-2",
+            "ranges":[
+                [
+                        0,1
+                ]
+            ]
+        },
+        {
+            "name":"dt-small-3",
+            "ranges":[
+                [
+                        1,1
+                ]
+            ]
+        }
+    ]
+}
+,
+"signboard-info":{
+    "tiles":[
+        {
+            "name":"sign-info-1",
+            "ranges":[
+                [
+                        0,0
+                ]
+            ]
+        },
+        {
+            "name":"sign-info-2",
+            "ranges":[
+                [
+                        1,0
+                ]
+            ]
+        }
+    ]
+},
+
+
+
+"water":{
+    "tiles":[
+        {
+            "name":"water",
+            "ranges":[
+                [
+                        0,0
+                ]
+            ]
+        },
+        {
+            "name":"water-1",
+            "ranges":[
+                [
+                        1,0
+                ]
+            ]
+        }
+    ]
+},
+
+
+        "signboard":{
+            "tiles":[
+                {
+                    "name":"signboard-1",
+                    "ranges":[
+                        [
+                                0,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"signboard-2",
+                    "ranges":[
+                        [
+                                1,0
+                        ]
+                    ]
+                }
+            ]
+        },
+        "flyingGround-w":{
+            "tiles":[{
+                "name":"flying-ground-1",
+                "type":"ground",
+                "ranges":[
+                     [0,0]
+                ]
+            },
+            {
+                "name":"flying-ground-3",
+                "type":"ground",
+                "ranges":[
+                     [1,0]
+                ]
+            }
+            ]
+        }
+    
+        ,
+        "flyingGround-1w":{
+        "tiles":[
+    {
+        "name":"flying-ground-1",
+        "type":"ground",
+        "ranges":[
+            [
+                    0,0
+            ]
+        ]
+    },
+    {
+        "name":"flying-ground-2",
+        "type":"ground",
+        "ranges":[
+            [
+                    1,0
+            ]
+        ]
+    },
+    {
+        "name":"flying-ground-3",
+        "type":"ground",
+        "ranges":[
+            [
+                    2,0
+            ]
+        ]
+    }
+]
+        },
+        
+        
+        "flyingGround-2w":{
+        "tiles":[
+    {
+        "name":"flying-ground-1",
+        "type":"ground",
+        "ranges":[
+            [
+                    0,0
+            ]
+        ]
+    },
+    {
+        "name":"flying-ground-2",
+        "type":"ground",
+        "ranges":[
+            [
+                    1,0
+            ]
+        ]
+    },
+    {
+        "name":"flying-ground-2",
+        "type":"ground",
+        "ranges":[
+            [
+                    2,0
+            ]
+        ]
+    },
+        
+    {
+        "name":"flying-ground-3",
+        "type":"ground",
+        "ranges":[
+            [
+                    3,0
+            ]
+        ]
+    }
+        ]
+        },
+
+        "flyingGround-3w":{
+            "tiles":[
+        {
+            "name":"flying-ground-1",
+            "type":"ground",
+            "ranges":[
+                [
+                        0,0
+                ]
+            ]
+        },
+        {
+            "name":"flying-ground-2",
+            "type":"ground",
+            "ranges":[
+                [
+                        1,0
+                ]
+            ]
+        },
+        {
+            "name":"flying-ground-2",
+            "type":"ground",
+            "ranges":[
+                [
+                        2,0
+                ]
+            ]
+        },
+        {
+            "name":"flying-ground-2",
+            "type":"ground",
+            "ranges":[
+                [
+                        3,0
+                ]
+            ]
+        },
+        {
+            "name":"flying-ground-3",
+            "type":"ground",
+            "ranges":[
+                [
+                        4,0
+                ]
+            ]
+        }
+            ]
+            },
+
+            "flyingGround-5w":{
+                "tiles":[
+            {
+                "name":"flying-ground-1",
+                "type":"ground",
+                "ranges":[
+                    [
+                            0,0
+                    ]
+                ]
+            },
+            {
+                "name":"flying-ground-2",
+                "type":"ground",
+                "ranges":[
+                    [
+                            1,0
+                    ]
+                ]
+            },
+            {
+                "name":"flying-ground-2",
+                "type":"ground",
+                "ranges":[
+                    [
+                            2,0
+                    ]
+                ]
+            },
+            {
+                "name":"flying-ground-2",
+                "type":"ground",
+                "ranges":[
+                    [
+                            3,0
+                    ]
+                ]
+            },
+            {
+                "name":"flying-ground-2",
+                "type":"ground",
+                "ranges":[
+                    [
+                            4,0
+                    ]
+                ]
+            },
+            {
+                "name":"flying-ground-2",
+                "type":"ground",
+                "ranges":[
+                    [
+                            5,0
+                    ]
+                ]
+            },
+            {
+                "name":"flying-ground-3",
+                "type":"ground",
+                "ranges":[
+                    [
+                            6,0
+                    ]
+                ]
+            }
+                ]
+                },
+        "tree-1":{
+            "tiles":[
+                {
+                    "name":"tree1-top-1",
+                    "ranges":[
+                        [
+                                0,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-top-2",
+                    "ranges":[
+                        [
+                                1,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-top-3",
+                    "ranges":[
+                        [
+                                2,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-top-4",
+                    "ranges":[
+                        [
+                                3,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-middle-1",
+                    "ranges":[
+                        [
+                                0,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-middle-2",
+                    "ranges":[
+                        [
+                               1,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-middle-3",
+                    "ranges":[
+                        [
+                            2,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-middle-4",
+                    "ranges":[
+                        [
+                               3,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-bot-1",
+                    "ranges":[
+                        [
+                                0,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-bot-2",
+                    "ranges":[
+                        [
+                               1,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-bot-3",
+                    "ranges":[
+                        [
+                            2,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-bot-4",
+                    "ranges":[
+                        [
+                               3,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-end-1",
+                    "ranges":[
+                        [
+                                0,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-end-2",
+                    "ranges":[
+                        [
+                               1,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-end-3",
+                    "ranges":[
+                        [
+                            2,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree1-end-4",
+                    "ranges":[
+                        [
+                               3,3
+                        ]
+                    ]
+                }
+                
+            ]
+        },
+        "tree-3":{
+            "tiles":[
+                {
+                    "name":"tree3-topa-1",
+                    "ranges":[[ 0,0 ]]
+                },
+                {
+                    "name":"tree3-topa-2",
+                    "ranges":[[ 1,0 ]]
+                },
+                {
+                    "name":"tree3-topa-3",
+                    "ranges":[[ 2,0 ]]
+                },
+                {
+                    "name":"tree3-topa-4",
+                    "ranges":[[ 3,0 ]]
+                },
+                {
+                    "name":"tree3-topa-5",
+                    "ranges":[[ 4,0 ]]
+                },
+                {
+                    "name":"tree3-topb-1",
+                    "ranges":[[ 0,1 ]]
+                },
+                {
+                    "name":"tree3-topb-2",
+                    "ranges":[[ 1,1 ]]
+                },
+                {
+                    "name":"tree3-topb-3",
+                    "ranges":[[ 2,1 ]]
+                },
+                {
+                    "name":"tree3-topb-4",
+                    "ranges":[[ 3,1 ]]
+                },
+                {
+                    "name":"tree3-topb-5",
+                    "ranges":[[ 4,1 ]]
+                },
+                {
+                    "name":"tree3-topma-1",
+                    "ranges":[[ 0,2 ]]
+                },
+                {
+                    "name":"tree3-topma-2",
+                    "ranges":[[ 1,2 ]]
+                },
+                {
+                    "name":"tree3-topma-3",
+                    "ranges":[[ 2,2 ]]
+                },
+                {
+                    "name":"tree3-topma-4",
+                    "ranges":[[ 3,2 ]]
+                },
+                {
+                    "name":"tree3-topma-5",
+                    "ranges":[[ 4,2 ]]
+                },
+                {
+                    "name":"tree3-topmb-1",
+                    "ranges":[[ 0,3 ]]
+                },
+                {
+                    "name":"tree3-topmb-2",
+                    "ranges":[[ 1,3 ]]
+                },
+                {
+                    "name":"tree3-topmb-3",
+                    "ranges":[[ 2,3 ]]
+                },
+                {
+                    "name":"tree3-topmb-4",
+                    "ranges":[[ 3,3 ]]
+                },
+                {
+                    "name":"tree3-topmb-5",
+                    "ranges":[[ 4,3 ]]
+                },
+                {
+                    "name":"tree3-bota-1",
+                    "ranges":[[ 0,4 ]]
+                },
+                {
+                    "name":"tree3-bota-2",
+                    "ranges":[[ 1,4 ]]
+                },
+                {
+                    "name":"tree3-bota-3",
+                    "ranges":[[ 2,4 ]]
+                },
+                {
+                    "name":"tree3-bota-4",
+                    "ranges":[[ 3,4 ]]
+                },
+                {
+                    "name":"tree3-bota-5",
+                    "ranges":[[ 4,4 ]]
+                },
+                {
+                    "name":"tree3-botb-1",
+                    "ranges":[[ 0,5 ]]
+                },
+                {
+                    "name":"tree3-botb-2",
+                    "ranges":[[ 1,5 ]]
+                },
+                {
+                    "name":"tree3-botb-3",
+                    "ranges":[[ 2,5 ]]
+                },
+                {
+                    "name":"tree3-botb-4",
+                    "ranges":[[ 3,5 ]]
+                },
+                {
+                    "name":"tree3-botb-5",
+                    "ranges":[[ 4,5 ]]
+                }
+            ]
+        }
+        ,
+        "tree-2":{
+            "tiles":[
+                {
+                    "name":"tree2-top-1",
+                    "ranges":[
+                        [
+                                0,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-top-2",
+                    "ranges":[
+                        [
+                                1,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-top-3",
+                    "ranges":[
+                        [
+                                2,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-top-4",
+                    "ranges":[
+                        [
+                                3,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-middle-1",
+                    "ranges":[
+                        [
+                                0,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-middle-2",
+                    "ranges":[
+                        [
+                               1,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-middle-3",
+                    "ranges":[
+                        [
+                            2,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-middle-4",
+                    "ranges":[
+                        [
+                               3,1
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-bot-1",
+                    "ranges":[
+                        [
+                                0,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-bot-2",
+                    "ranges":[
+                        [
+                               1,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-bot-3",
+                    "ranges":[
+                        [
+                            2,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-bot-4",
+                    "ranges":[
+                        [
+                               3,2
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-end-1",
+                    "ranges":[
+                        [
+                                0,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-end-2",
+                    "ranges":[
+                        [
+                               1,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-end-3",
+                    "ranges":[
+                        [
+                            2,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-end-4",
+                    "ranges":[
+                        [
+                               3,3
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-ende-1",
+                    "ranges":[
+                        [
+                                0,4
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-ende-2",
+                    "ranges":[
+                        [
+                               1,4
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-ende-3",
+                    "ranges":[
+                        [
+                            2,4
+                        ]
+                    ]
+                },
+                {
+                    "name":"tree2-ende-4",
+                    "ranges":[
+                        [
+                               3,4
+                        ]
+                    ]
+                }
+                
+            ]
+        },
+        "bush":{
+            "tiles":[
+                {
+                    "name":"bush-1",
+                    "ranges":[
+                        [
+                                0,0
+                        ]
+                    ]
+                },
+                {
+                    "name":"bush-2",
+                    "ranges":[
+                        [
+                                1,0
+                        ]
+                    ]
+                }
+                
+            ]
+        }
+    },
+    "entities":[
+        {
+            "name":"levelup_power",
+            "pos":[
+                [9600,74]
+            ]
+        },
+        {
+            "name":"wolf",
+            "pos":[
+                [4428,414],
+                [4628,414],
+                [5008,414]
+            ]
+
+        },
+      {
+        "name": "fox",
+        "pos": [
+          [ 1780, 576 ],
+          [ 7318, 100]
+        ],
+        "canSwim": false
+      },
+      {
+            "name":"coin",
+            "pos":[
+              [ 624, 414 ],
+              [ 686, 414 ],
+              [ 950, 200 ],
+              [ 1010, 190 ],
+              [ 1070, 180 ],
+              [ 1130, 190 ],
+              [ 1190, 200 ],
+              [ 2100, 530],
+              [ 2178, 530],
+              [ 2258, 530],
+              [ 2770, 474],
+              [ 3088, 160],
+              [ 3148, 140],
+              [ 3228, 120],
+              [ 3278, 120],
+              [ 3348, 140],
+              [ 3408, 160],
+              [ 3240, 440],
+              [ 3290, 440],
+              [ 3340, 440],
+              [ 3390, 440],
+              [ 4390, 440],
+              [ 4490, 440],
+              [ 4590, 440],
+              [ 4690, 440],
+              [ 5090, 320],
+              [ 4890, 320],
+              [ 4940, 280],
+              [ 4990, 280],
+              [ 5040, 280],
+              [ 5500, 400],
+              [ 5620, 400],
+              [ 5740, 400],
+              [ 5860, 400],
+              [ 5980, 400],
+              [ 6100, 400],
+              [ 6508, 440],
+              [ 6825, 440],
+              [ 7475, 480],
+              [ 7665, 440],
+              [ 7793, 340],
+              [ 8333, 440],
+              [ 8593, 440],
+              [ 8845, 380],
+              [ 9035, 240],
+              [ 9233, 100],
+              [ 7950, 180],
+              [ 8000, 180],
+              [ 8050, 180]
+
+
+            ]
+        },
+        {
+            "name":"crab",
+            "pos":[
+                [740,576],
+                [840,576],
+                [820,576],
+                [3290,440],
+                [3240,440]
+
+            ],
+            "canSwim":false
+        },
+        {
+            "name":"crab",
+            "pos":[
+                [6300,576],
+                [6900,476],
+                [7210,476],
+                [7610,476],
+                [7910,476],
+                [8000,356]
+
+            ]
+        },
+        {
+            "name":"croc",
+            "pos":[
+                [1380,576],
+                [6408,576],
+                [7710,576],
+                [6900,576]
+            ],
+            "canSwim":true
+        }
+    ]
+  
+}

@@ -1,0 +1,9 @@
+﻿{
+  "imageUrl": "/atlas/oneup.png",
+  "frames": [
+    {
+      "name": "oneup_power",
+      "rect": [ 0, 0, 32, 32 ]
+    }
+  ]
+}

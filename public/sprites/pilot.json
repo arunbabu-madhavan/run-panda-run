@@ -1,0 +1,36 @@
+{
+    "imageUrl":"/atlas/tileset.png",
+    "tileSize":32,
+    "tiles":[
+        {
+            "name":"sky",
+            "width":32,
+            "height":32,
+            "index":[208,98]
+        },
+        {
+            "name":"ground",
+            "width":64,
+            "height":128,
+            "index":[32,0]
+        },
+        {
+            "name":"flyingGround",
+            "width":200,
+            "height":64,
+            "index":[0,273]
+        },
+        {
+            "name":"brownBlocks",
+            "width":64,
+            "height":64,
+            "index":[681,342]
+        },
+        {
+            "name":"flyingGroundsmall",
+            "width":64,
+            "height":64,
+            "index":[136,205]
+        }
+    ]
+}

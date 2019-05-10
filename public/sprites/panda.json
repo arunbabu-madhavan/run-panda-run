@@ -1,0 +1,47 @@
+{
+    "imageUrl":"/atlas/panda1.png",
+    "frames":[
+        {
+            "name":"idle",
+            "rect":[10,-6,48,64]
+        },
+        {
+            "name":"walk-1",
+            "rect":[84,-6,48,64]
+        },
+        {
+            "name":"walk-2",
+            "rect":[155,-6,48,64]
+        },
+        {
+            "name":"break",
+            "rect":[213,-6,54,64]
+        },
+        {
+            "name":"jump-1",
+            "rect":[80,75,48,64]
+        },
+        {
+            "name":"jump-2",
+            "rect":[10,88,48,64]
+        },
+        {
+            "name":"jump-3",
+            "rect":[224,88,48,64]
+        }
+        ,
+        {
+            "name":"dead",
+            "rect":[0,170,64,48]
+        }
+
+    ],
+    "animations":[
+        {
+            "name":"walk",
+            "frameLen":26,
+            "frames":["walk-1","walk-2","idle"]
+        }
+    ]
+   
+}
