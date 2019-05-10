@@ -1,5 +1,5 @@
 {
-    "imageUrl":"/atlas/tiles_a.png",
+    "imageUrl":"atlas/tiles_a.png",
     "tileH":64,
     "tileW":64,
     "tiles":[

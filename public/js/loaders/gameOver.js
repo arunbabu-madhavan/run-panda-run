@@ -14,7 +14,7 @@ class GameOver {
 
 export function loadGameOverSprite()
 {
-    return loadImage('/atlas/game-over.png')
+    return loadImage('atlas/game-over.png')
         .then(image => {
             const gameOverSprite = new SpriteSheet(image);
             gameOverSprite.define("GameOver", 0, 0, 256, 256);

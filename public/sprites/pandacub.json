@@ -1,5 +1,5 @@
 {
-    "imageUrl":"/atlas/pandacub.png",
+    "imageUrl":"atlas/pandacub.png",
     "frames":[
         {
             "name":"idle",

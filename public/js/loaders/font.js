@@ -20,7 +20,7 @@ class Font {
 
 export function loadFont()
 {
-    return loadImage('/atlas/font1.png')
+    return loadImage('atlas/font1.png')
         .then(image => {
             const fontSprite = new SpriteSheet(image,16,16);
 

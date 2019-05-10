@@ -18,7 +18,7 @@ export function LoadJSON(url){
 }
 
 export function loadSpritesheet(name){
-   return LoadJSON(`/sprites/${name}.json`)
+   return LoadJSON(`sprites/${name}.json`)
                 .then(sheetSpec =>  Promise.all([sheetSpec,loadImage(sheetSpec.imageUrl)])
                     .then(([sheetSpec,image])=>{
                         const sprites = new SpriteSheet(image,sheetSpec.tileW,sheetSpec.tileH);

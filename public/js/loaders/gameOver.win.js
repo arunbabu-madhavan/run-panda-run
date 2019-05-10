@@ -14,7 +14,7 @@ class GameOverWin {
 
 export function loadGameOverWinSprite()
 {
-    return loadImage('/atlas/panda_win.png')
+    return loadImage('atlas/panda_win.png')
         .then(image => {
             const gameOverSprite = new SpriteSheet(image);
             gameOverSprite.define("GameOverWin", 0, 0, 358, 512);
