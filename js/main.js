@@ -44,7 +44,8 @@ async function main(canvas){
     window.panda = panda;
     inputPanda.listenTo(window);
     inputPandaCub.listenTo(window);
-
+    document.getElementById("loader").remove();
+    document.getElementById("screen").style.display ="block";
     levels.forEach(lvl => {
         lvl.entities.add(player);
     //   lvl.compositor.layers.push(createCollisionLayer(lvl));

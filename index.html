@@ -9,15 +9,22 @@
          }
 
          #screen{
-             display:block;
+             display:none;
              image-rendering:crisp-edges;
              height: 100vh;
              margin:auto;
+         }
+         #loader{
+             width: 50%;
+             margin: auto;
+             display: block;
+             margin-top: 5%;
          }
         </style>
         <script type="module" src="js/main.js"></script>
     </head>
     <body>
+        <img id="loader" src="atlas/loadingpanda.gif"/>
         <canvas id="screen" height="640" width="640"></canvas>
     </body>
 </html>
