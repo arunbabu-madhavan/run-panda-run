@@ -22,7 +22,7 @@ export function createDashBoardLayer(font,gameOverSprite,player,gameOverSpriteWi
 
         font.print('TIME', context, 560, LINE1);
      
-        if(lives != 0)
+        if(lives != 0 && !win)
          font.print(time.toFixed().toString().padStart(4, ' '), context, 560, LINE2);
 
         if(lives == 0)

@@ -73,7 +73,9 @@ async function main(canvas){
         }
 
         window.onfocus = function(){timer.pause = false;};
-        window.onblur = function(){timer.pause = true;};
+        window.onblur = function(){timer.pause = true;
+        
+        };
 
         timer.start();
  }

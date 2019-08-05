@@ -6,7 +6,7 @@ export default class Jump extends Trait{
         super('jump');
         this.ready = 0;
         this.duration = 0.35;
-        this.velocity = 260;
+        this.velocity = 320;
         this.engageTime = 0;
         this.gracePeriod = 0.3;
         this.speedBoost = 0.4;
@@ -20,6 +20,9 @@ export default class Jump extends Trait{
     get falling()
     {
         return this.ready < 0;
+
+
+        
     }
 
     cancel()

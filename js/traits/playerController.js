@@ -65,7 +65,6 @@ export default class PlayerController extends Trait{
         }
         
         this.player.stomper.onCollectLevelUp = () =>{
-            console.log(this.level ,this.maxLevels);
             if(this.level + 1 <= this.maxLevels)
             {
            this.levelUp  = true;
