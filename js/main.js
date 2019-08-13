@@ -48,7 +48,7 @@ async function main(canvas){
     document.getElementById("screen").style.display ="block";
     levels.forEach(lvl => {
         lvl.entities.add(player);
-    //   lvl.compositor.layers.push(createCollisionLayer(lvl));
+       // lvl.compositor.layers.push(createCollisionLayer(lvl));
 
         lvl.compositor.layers.push(createDashBoardLayer(font,gOverSprite,player,gOverSpriteWin));
     });   

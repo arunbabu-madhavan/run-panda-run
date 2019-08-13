@@ -41,7 +41,7 @@
   "animations": [
     {
       "name": "coins",
-      "frameLen": 0.19,
+      "frameLen": 0.14,
       "frames": [
         "coins",
         "coins-1",

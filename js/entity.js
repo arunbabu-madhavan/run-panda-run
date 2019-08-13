@@ -61,7 +61,7 @@ export default class Entity{
         });
         this.lifeTime += deltaTime;
 
-        if(this.pos.y > 700 && this.killable && !this.killable.dead)
+        if(this.killable &&  !this.killable.dead && this.pos.y > 700  )
         {
             this.killable.kill();
             this.physics.obstructs = false;

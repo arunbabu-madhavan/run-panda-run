@@ -24,23 +24,14 @@ export default class Level{
 
     update(deltaTime){
         this.entities.forEach(entity =>{
-          
             entity.update(deltaTime,this);
-          
-        });
-
-        this.entities.forEach(entity =>{
-                this.entityCollider.check(entity);
-        });
-
-        this.entities.forEach(entity =>{
-                entity.finalize();
-        });
-
-        this.entities.forEach(entity =>{
+            this.entityCollider.check(entity);
+            entity.finalize();
+           
             if(entity.levelUp)
                 this.levelUp = true;
         });
+
         this.totalTime +=deltaTime;
     }
 }

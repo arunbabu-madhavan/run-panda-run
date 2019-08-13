@@ -9,7 +9,7 @@ export default class PlayerController extends Trait{
         this.player = null;
         this.playerCub = null;
         this.playerBig = null;
-        this.checkpoint = new Vec2(140,70);
+        this.checkpoint = new Vec2(128,400);
         this.INIT_TIME = 128;
         this.time =  this.INIT_TIME;
         this.score = 0;
@@ -96,16 +96,16 @@ export default class PlayerController extends Trait{
     {
         level.levelUp = this.levelUp;
         this.checkpoints = level.checkpoints;
-if(this.remove){
-    level.entities.delete(this.player);
-}
+    if(this.remove){
+        level.entities.delete(this.player);
+    }
         if(this.player.grown)
             {
                 this.player =  this.playerBig;
                 this.player.grown = true;
             }
         this.setCheckPoint();
-        if(!level.entities.has(this.player) && this.lives > 0 && !this.remove){
+        if(this.lives > 0 && !this.remove && !level.entities.has(this.player)){
                      this.player.killable.revive();
                      level.entities.add(this.player);
                      this.player.offset.set(0,-10);
@@ -114,7 +114,8 @@ if(this.remove){
         else{
             this.time -=deltaTime;
             if(this.time <=0)
-                {this.lives--;
+                {
+                    this.lives--;
                     this.time =this.INIT_TIME;
                 }
 
