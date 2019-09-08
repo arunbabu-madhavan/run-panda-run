@@ -57,6 +57,7 @@ export function loadWolf(){
             if(them.vel.y > us.vel.y){
                 them.stomper.bounce();
                 this.state = STATE_SLEEPING;
+                us.killable.kill();
                 us.heading = us.vel.x > 0;
                 us.pendulumMove.speed = 0;
                 us.vel.x = 0;
